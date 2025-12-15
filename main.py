@@ -162,7 +162,7 @@ def E4_exit(n0: int) -> int:
         raise ValueError("n0 must be a positive integer")
 
     t = 3 * n0 + 2
-    UB = t.bit_length()
+    UB = t.bit_length() + nu2(t)
 
     fk = n0
     for _ in range(UB + 1):

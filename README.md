@@ -5,8 +5,7 @@ While not yielding a closed-form solution to the Collatz conjecture, this work g
 
 ## The Modulo-10 Transition Graph
 
-To organize the reduced Collatz dynamics, we consider the induced transition graph on last digits modulo 10. Each node corresponds to a residue class  
-d ∈ {0, …, 9}, and directed edges represent possible last-digit transitions under a single Collatz step.
+To organize the reduced Collatz dynamics, we consider the induced transition graph on last digits modulo 10. Each node corresponds to a residue class d ∈ {0, …, 9}, and directed edges represent possible last-digit transitions under a single Collatz step.
 
 For odd values of n, the transition is uniquely determined by the map n → 3n + 1. For even values of n, the transition depends on the prefix parity of n, resulting in two possible outgoing edges.
 
